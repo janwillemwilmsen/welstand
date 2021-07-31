@@ -1,0 +1,41 @@
+body {
+	
+	margin-left: 20;
+	margin-right: 0 pt;
+	margin-bottom: 0 pt;
+	margin-top: 20;
+	marginheight:20;
+	marginwidth:20;
+	background-color:#8bbbe3 ;
+    scrollbar-base-color: default;
+    scrollbar-face-color: #778787;
+    scrollbar-track-color: #c8c8c8;
+    scrollbar-arrow-color: #c8c8c8;
+    scrollbar-3dlight-color: #778787;
+    scrollbar-darkshadow-color: #778787;
+    scrollbar-highlight-color: #778787;
+    scrollbar-shadow-color: #778787;
+	border : 0px;
+	color:black;
+	font-family: arial;
+	font-size:12pt;
+} 
+
+a {color:MidnightBlue;}
+a:hover {color:#4060c8;}
+A:link {font-family: verdana; color:#e8e8e8; text-decoration:none; font-size:13px;font-weight: bold; }
+A:visited {font-family: verdana; color:#e8e8e8; text-decoration:none; font-size:13px;font-weight: bold; }
+A:hover {font-family: verdana;  text-decoration:none; color:white; font-size:13px;font-weight: bold; }
+a:link { color: MidnightBlue; text-decoration: none; }
+
+
+font.titel {color:white;font-family:arial;font-size:20px;}
+font.zwart{font-size:13px;color:black;font-family:verdana;}
+
+table {font-size:14px;}
+td.zwart {font-size:13px;color:black;font-family:verdana;}
+td.wit 		{font-size:13px;color:white;font-family:verdana;}
+table.rapport {font-size:13px;color:black;font-family:arial;}
+font.rapport {font-size:13px;color:black;font-family:arial;font-weight: bold;}
+font.inleiding {font-size:13px;	color:black;font-family:arial;font-style: italic ;}
+table.eigenschappen {font-size:13px;color:black;font-family:arial;}

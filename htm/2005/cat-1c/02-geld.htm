@@ -1,0 +1,230 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Untitled Document</title>
+<link href="../content-01.css" rel="stylesheet" type="text/css">
+<SCRIPT LANGUAGE="JavaScript">
+
+
+<!-- Begin
+NewImg = new Array (
+"01c-pics/geld-01.jpg",
+"01c-pics/geld-03.jpg",
+"01c-pics/geld-04.jpg",
+"01c-pics/geld-02.jpg",
+"01c-pics/geld-05.jpg",
+"01c-pics/geld-06.jpg",
+"01c-pics/geld-07.jpg"
+);
+var ImgNum = 0;
+var ImgLength = NewImg.length - 1;
+
+//Time delay between Slides in milliseconds
+var delay = 2000;
+
+var lock = false;
+var run;
+function chgImg(direction) {
+if (document.images) {
+ImgNum = ImgNum + direction;
+if (ImgNum > ImgLength) {
+ImgNum = 0;
+}
+if (ImgNum < 0) {
+ImgNum = ImgLength;
+}
+document.slideshow.src = NewImg[ImgNum];
+   }
+}
+function auto() {
+if (lock == true) {
+lock = false;
+window.clearInterval(run);
+}
+else if (lock == false) {
+lock = true;
+run = setInterval("chgImg(1)", delay);
+   }
+}
+//  End -->
+</script>
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+//-->
+</script>
+<style>
+<!--
+a:hover{color:#B3DC1F}
+a{text-decoration:none}
+.look{font:bold 16pt Garamond,Arial;}
+.look2{font:bold 12pt Garamond,Arial;}
+.folding{cursor:hand}
+//-->
+</style>
+
+<script language="JavaScript">
+<!--
+
+
+
+//By George Chiang (www.javascriptkit.com) JavaScript site.
+img1=new Image()
+img1.src="../pics/fold.gif"
+img2=new Image()
+img2.src="../pics/open.gif"
+ns6_index=0
+
+function change(e){
+
+if(!document.all&&!document.getElementById)
+return
+
+if (!document.all&&document.getElementById)
+ns6_index=1
+
+var source=document.getElementById&&!document.all? e.target:event.srcElement
+if (source.className=="folding"){
+var source2=document.getElementById&&!document.all? source.parentNode.childNodes:source.parentElement.all
+if (source2[2+ns6_index].style.display=="none"){
+source2[0].src="../pics/open.gif"
+source2[2+ns6_index].style.display=''
+}
+else{
+source2[0].src="../pics/fold.gif"
+source2[2+ns6_index].style.display="none"
+}
+}
+}
+document.onclick=change
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+//-->
+</script>
+</head>
+
+<body style="width:90%">
+<div id="Layer1" style="position:absolute; left:25px; top:75px; width:540px; height:225px; z-index:1">
+  <table width="85%" cellpadding="0" cellspacing="0">
+    <tr>
+      <td><img src="01c-pics/geld-01.jpg" name="slideshow" border="1"></td>
+    </tr>
+    <tr>
+      <td height="25" valign="bottom"><table height="22" cellpadding="0" cellspacing="0">
+        <tr>
+          <td width="200">&nbsp;</td>
+          <td><table height="23" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="left"><a href="javascript:chgImg(-1)"><img src="../pics/pic-vori.jpg" width="70" height="22" border="0"></a></td>
+              <td align="center"><a href="javascript:auto()"><img src="../pics/pic-aust.jpg" width="70" height="22" border="0"></a></td>
+              <td align="center"><a href="javascript:chgImg(1)"><img src="../pics/pic-volg.jpg" width="70" height="22" border="0"></a></td>
+            </tr>
+          </table></td>
+        </tr>
+      </table></td>
+    </tr>
+  </table>
+</div>
+<table width="99%" height="100%" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="185px" height="25">&nbsp;</td>
+    <td height="0" bgcolor="" style="background-image: url(../pics/back-white.gif);">
+      <table width="200" cellspacing="0" cellpadding="0">
+        <tr>
+          <td><!-- <img src="../pics/plannav.gif" alt="Terug naar index overzicht van deze categorie." width="136" height="24" border="0" usemap="#Map"> -->          </td>
+          <td><!-- <a href="javascript:print();"><img src="../pics/print.gif" width="16" height="15" border="0"></a> --></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr>
+    <td width="185" valign="top"><table width="180" cellpadding="0" cellspacing="0" class="broodtekst">
+        <tr>
+          <td height="315">&nbsp;</td>
+        </tr>
+        <tr>
+          <td><p class="titel-groen">Geldrop-Mierlo</p>
+		    <p class="broodtekst-bold">woonzorgcomplex Maria Magdalenakerk aan de Nuenenseweg in Geldrop</p>
+		    <p>		      De markante kop van het nieuwe complex geeft in schaal antwoord aan de situatie met de fors bemeten infrastructurele voorzieningen aan de voorzijde. In combinatie met de afbouw in hoogte van de bouwdelen achter deze kop en de ruime maat die de lange vleugels houden tot de tegenoverliggende woningen, vormt de nieuwbouw hier een passend stedenbouwkundig intermediair. De opzet van het complex rondom een hof keert de plek ten opzichte van de bestaande situatie met de kerk compromisloos binnenstebuiten en doordat deze hof zich op heel uitgesproken wijze &ndash; onder een welhaast zwevend bouwdeel door &ndash; opent naar de rotonde, ontstaat een interessante wisselwerking tussen het publieke en het nieuwe, semi-publieke gebied. De uitwerking van het geheel is samenhangend en fijnzinnig en het verschil in uitstraling van de bouwdelen naar buiten en naar binnen spreekt tot de verbeelding.
+	        </p></td>
+        </tr>
+      </table></td>
+    <td valign="top" background="../pics/back-white.gif"><table width="400" cellspacing="0" cellpadding="0">
+      <tr>
+        <td height="19">&nbsp;</td>
+        <td height="30" valign="middle" class="broodtekst">Wonen en zorg </td>
+      </tr>
+      <tr>
+        <td width="15" height="160">&nbsp;</td>
+        <td height="285" class="broodtekst">&nbsp;</td>
+      </tr>
+      <tr>
+        <td width="15">&nbsp;</td>
+        <td class="broodtekst"><div><img src="../pics/fold.gif" name="Image12" class="folding" id="Image1"><span class="broodtekst-bold">&nbsp;&nbsp;&nbsp;Plantoelichting architect</span>
+            <ol class="broodtekst" style="list-style-image:url(../plannen/list.gif);display:none">
+    <li class="broodtekst"><p>Ter vervanging van een in onbruik geraakte jaren zestig kerk is een woongebouw ontworpen met dezelfde stedenbouwkundige kwaliteiten als de voormalige Maria Magdalena kerk. Het  vormt een nieuw middelpunt van de naoorlogse wijk en een oriëntatiepunt langs de doorgaande weg van Geldrop naar Nuenen.</p>
+
+<p>Het woongebouw is een grillig gevormd gesloten bouwblok waarvan de vorm bepaald is door de bouwvolumes op de terreingrens te plaatsen. Het woonprogramma is ondergebracht in drie hoofdvolumes waarvan het noordelijk volume het hoogste is (6 lagen hoog). In dit volume is over twee lagen een gat aangebracht vanwaar een inkijk in de omsloten hof vanuit de openbare ruimte mogelijk is.</p>
+
+<p>De hof –een 1 meter opgetilde groene tuin– fungeert als semi-openbare buitenruimte voor de omliggende woningen. Ze wordt in het “gat” ontsloten middels trappen en hellingbanen. Aan het einde van de tuin ligt een collectieve ruimte, die toegankelijk is voor alle bewoners van het beschermd wonen complex.</p>
+
+<p>De twee lage volumes van het complex zijn onderkelderd met een halfverdiepte  parkeergarage, waarvan de entree aan de rustige straat ligt.</p>
+
+<p>De drie hoofdvolumes zijn opgebouwd uit galerijappartementen, waarvan de balkons zoveel mogelijk op de zon georiënteerd zijn. Deze keuze maakt dat de straatgevels maar ook de gevels die de hof insluiten wisselend een galerijgevel danwel een balkongevel zijn. Een prettige afwisseling in het rigide bouwbloktype.</p>
+
+<p>Alle woningen worden vanuit de hof ontsloten middels lift / trappenhuizen die als aparte glasachtige volumes zijn gematerialiseerd. Deze verticale volumes vormen een contrast met de gemetselde bouwvolumes waarin de horizontale opbouw nadrukkelijk wordt geaccentueerd middels betonnen banden / balkons / galerijen.</p>
+<p>Op de bovenste verdieping van de hoogbouw tenslotte zijn drie losse woonvolumes geplaatst – als een soort bungalows – om de blokachtige skyline van het complex alhier te verzachten.</p>
+</li>
+    </ol>
+</div>
+<div><img src="../pics/fold.gif" name="Image12" class="folding" id="Image1"><span class="broodtekst-bold">&nbsp;&nbsp;&nbsp;Algemene projectinformatie</span>
+            <ol class="broodtekst" style="list-style-image:url(../plannen/list.gif);display:none">
+    <li class="broodtekst">
+	  <span class="streepjes">architecten</span> architecten EnEn - Eindhoven en BenW architecten - Budel<br>
+      <span class="streepjes">projectarchitecten</span> Arie van Rangelrooy en Theo Bähler<br>
+      <span class="streepjes">opdrachtgever</span> Magdalenahof vof - Eindhoven<br>
+      <span class="streepjes">aannemer</span> Bouw en Vastgoed Houta Bouw bv - Geldrop<br>
+      <span class="streepjes">bouwsom</span> € 8.500.000<br>
+      <span class="streepjes">oplevering</span> januari 2007<br>
+	  <span class="streepjes">website</span> <a href="http://www.architecten-en-en.nl" target="_blank">www.architecten-en-en.nl</a></li>
+	  </ol>
+</div></td>
+      </tr>
+      <tr>
+        <td width="15">&nbsp;</td>
+        <td class="broodtekst">&nbsp;</td>
+      </tr>
+      <tr>
+        <td width="15">&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+<!-- replace map <map name="Map">
+  <area shape="rect" coords="3,2,50,25" href="cat01c.htm" alt="Terug naar index overzicht van deze categorie.">
+  <area shape="rect" coords="52,2,132,25" href="03-geme.htm" alt="Volgend project in deze categorie.">
+</map> replace map end-->
+<script>
+<!--
+function doit(){
+if (!window.print){
+alert("You need NS4.x to use this print button!")
+return
+}
+window.print()
+}
+//-->
+</script>
+<a href="javascript:doit()"><img src="../pics/printer.gif" width="18" height="18" border="0" alt="Print pagina"></a>
+</body>
+</html>

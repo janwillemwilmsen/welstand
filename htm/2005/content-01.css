@@ -1,0 +1,102 @@
+body {
+	margin-left: 25px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+
+	background-color:#8bbbe3;
+    scrollbar-face-color: #778787;
+    scrollbar-track-color: #c8c8c8;
+    scrollbar-arrow-color: #c8c8c8;
+    scrollbar-3dlight-color: #778787;
+    scrollbar-darkshadow-color: #778787;
+    scrollbar-highlight-color: #778787;
+    scrollbar-shadow-color: #778787;
+	}
+.broodtekst {
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #011A33;
+	list-style-image: url(pics/list.gif);
+	background-color: #8bbbe3; /* weghalen om pixelachtegrond terug te halen */
+	margin:4px;
+}
+
+
+/* items Algemene Informatie (arch, opdragr bouwsom etc) */
+.streepjes {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-color: #8bbbe3;
+	font-weight: 900;
+	color: #353535;
+}
+a:link {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #011A33;
+	font-weight: normal;
+	text-decoration: underline;
+}
+a:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #02366A;
+	text-decoration: underline;
+	font-weight: normal;
+}
+a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: white;
+	text-decoration: underline;
+	font-weight: normal;
+}
+a:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #B3DC1F;
+	text-decoration: underline;
+	font-weight: normal;
+}
+.titel-groen {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bolder;
+	color: #002A4F;
+	margin-left:4px;
+}
+.navigatie {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #011A33;
+}
+.kop-wit {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: 900;
+	background-color: #8bbbe3;
+	color: #FFFFFF;
+}
+.broodtekst-bold {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #E8E8E8;
+	/* white */
+	background-color: #8bbbe3;
+	margin:4px;
+	font-weight: bold; 
+}
+.broodtekst-witbold {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.foto-tekst {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #B3DC1F;
+	background-color: #8bbbe3;
+}

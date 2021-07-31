@@ -1,0 +1,222 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Untitled Document</title>
+<link href="../content-01.css" rel="stylesheet" type="text/css">
+<SCRIPT LANGUAGE="JavaScript">
+
+
+<!-- Begin
+NewImg = new Array (
+"06-pics/oist-01a.jpg",
+"06-pics/oist-01.jpg",
+"06-pics/oist-02.jpg",
+"06-pics/oist-03.jpg",
+"06-pics/oist-04.jpg"
+);
+var ImgNum = 0;
+var ImgLength = NewImg.length - 1;
+
+//Time delay between Slides in milliseconds
+var delay = 2000;
+
+var lock = false;
+var run;
+function chgImg(direction) {
+if (document.images) {
+ImgNum = ImgNum + direction;
+if (ImgNum > ImgLength) {
+ImgNum = 0;
+}
+if (ImgNum < 0) {
+ImgNum = ImgLength;
+}
+document.slideshow.src = NewImg[ImgNum];
+   }
+}
+function auto() {
+if (lock == true) {
+lock = false;
+window.clearInterval(run);
+}
+else if (lock == false) {
+lock = true;
+run = setInterval("chgImg(1)", delay);
+   }
+}
+//  End -->
+</script>
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+//-->
+</script>
+<style>
+<!--
+a:hover{color:#B3DC1F}
+a{text-decoration:none}
+.look{font:bold 16pt Garamond,Arial;}
+.look2{font:bold 12pt Garamond,Arial;}
+.folding{cursor:hand}
+//-->
+</style>
+
+<script language="JavaScript">
+<!--
+
+
+
+//By George Chiang (www.javascriptkit.com) JavaScript site.
+img1=new Image()
+img1.src="../pics/fold.gif"
+img2=new Image()
+img2.src="../pics/open.gif"
+ns6_index=0
+
+function change(e){
+
+if(!document.all&&!document.getElementById)
+return
+
+if (!document.all&&document.getElementById)
+ns6_index=1
+
+var source=document.getElementById&&!document.all? e.target:event.srcElement
+if (source.className=="folding"){
+var source2=document.getElementById&&!document.all? source.parentNode.childNodes:source.parentElement.all
+if (source2[2+ns6_index].style.display=="none"){
+source2[0].src="../pics/open.gif"
+source2[2+ns6_index].style.display=''
+}
+else{
+source2[0].src="../pics/fold.gif"
+source2[2+ns6_index].style.display="none"
+}
+}
+}
+document.onclick=change
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+//-->
+</script>
+</head>
+
+<body style="width:90%">
+<div id="Layer1" style="position:absolute; left:25px; top:75px; width:540px; height:225px; z-index:1">
+  <table width="85%" cellpadding="0" cellspacing="0">
+    <tr>
+      <td><img src="06-pics/oist-01a.jpg" name="slideshow" border="1"></td>
+    </tr>
+    <tr>
+      <td height="25" valign="bottom"><table height="22" cellpadding="0" cellspacing="0">
+        <tr>
+          <td width="200">&nbsp;</td>
+          <td><table height="23" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="left"><a href="javascript:chgImg(-1)"><img src="../pics/pic-vori.jpg" width="70" height="22" border="0"></a></td>
+              <td align="center"><a href="javascript:auto()"><img src="../pics/pic-aust.jpg" width="70" height="22" border="0"></a></td>
+              <td align="center"><a href="javascript:chgImg(1)"><img src="../pics/pic-volg.jpg" width="70" height="22" border="0"></a></td>
+            </tr>
+          </table></td>
+        </tr>
+      </table></td>
+    </tr>
+  </table>
+</div>
+<table width="99%" height="100%" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="185px" height="25">&nbsp;</td>
+    <td height="0" bgcolor="" style="background-image: url(../pics/back-white.gif);">
+      <table width="200" cellspacing="0" cellpadding="0">
+        <tr>
+          <td><img src="../pics/plannav.gif" alt="Terug naar index overzicht van deze categorie." width="136" height="24" border="0" usemap="#Map" href="04-eers.htm">          </td>
+          <td><!-- <a href="javascript:print();"><img src="../pics/print.gif" width="16" height="15" border="0"></a> --></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr>
+    <td width="185" valign="top"><table width="180" cellpadding="0" cellspacing="0" class="broodtekst">
+        <tr>
+          <td height="315">&nbsp;</td>
+        </tr>
+        <tr>
+          <td><p class="titel-groen">Oisterwijk</p>
+		    <p class="broodtekst-bold">nieuwbouw klooster aan de Oirschotsebaan in Oisterwijk</p>
+		    <p>Zelden wordt er in deze tijd een abdij uitgebreid of nieuw gebouwd. In dit geval wordt er een volledig nieuwe behuizing opgericht voor de zusters in Oisterwijk, ontworpen door ARCH I.D. Dit feit alleen is al een nominatie waard.</p></td>
+        </tr>
+      </table></td>
+    <td valign="top" background="../pics/back-white.gif"><table width="400" cellpadding="0" cellspacing="0" class="broodtekst">
+      <tr>
+        <td height="19">&nbsp;</td>
+        <td height="30" valign="middle" class="broodtekst">Bijzondere gebouwen</td>
+      </tr>
+      <tr>
+        <td width="15" height="160">&nbsp;</td>
+        <td height="285" class="broodtekst">&nbsp;</td>
+      </tr>
+      <tr>
+        <td width="15">&nbsp;</td>
+        <td class="broodtekst"><div><img src="../pics/fold.gif" name="Image12" class="folding" id="Image1"><span class="broodtekst-bold">&nbsp;&nbsp;&nbsp;Plantoelichting architect</span>
+            <ol class="broodtekst" style="list-style-image:url(../plannen/list.gif);display:none">
+    <li class="broodtekst"><p>De opzet en principe van het hoofdgebouw is geent op de traditionele plattegrond van een Cisterci&euml;nzer klooster met als belangrijkste elementen: kerk, rondgang en binnentuin. De kerk oost- west geori&euml;nteerd met de apsis naar het oosten. </p>
+          <p>Rondgang en binnentuin zijn van oudsher in het centrum van het klooster. Gesitueerd en symboliseren het in zichzelf gekeerde karakter van het klooster. Uiterlijke verschijning en situering van de verschillende gebouwonderdelen dienen een duidelijke verbondenheid met het omringende landschap weer te geven. </p>
+          <p>Gekozen is daarom voor een hoofdvorm, waarbij een aantal vleugels zich in meerdere richtingen uitstrekt in de omringende natuur, waardoor er een maximaal contact tussen natuur en gebouw ontstaat. Zo ontstaat een interessant beeld van een klooster in deze tijd: enerzijds naar binnen gericht, anderzijds naar de omgeving gericht. De &ldquo;rug van het gebouw&rdquo;, de hoofdas, geeft de grens aan tussen het buiten slot gedeelte en het gedeelte binnen slot. Buitenslot is voor de buitenwereld (gasten, retraitanten, leveranciers) toegankelijk, binnen slot alleen voor zusters. </p>
+          <p>Het gebouw dient rust en evenwicht uit te stralen, in zichzelf, maar ook naar buiten toe. De retraitanten afdeling is eigenlijk een klein klooster op zich met een eigen rondgang en binnentuin. Gekozen is voor een zuidelijke mediterrane bouwstijl, omdat het in deze stijl heel goed mogelijk is om een kleinschalig gebouw te maken, dat zich als een geheel laat ervaren, terwijl de verschillende belangrijke onderdelen van het gebouw toch goed herkenbaar zijn en dat zich goed laat voegen naar het omringende landschap. </p>
+          <p>Kleuren en materialen sluiten goed aan op deze bouwstijl en versterken de verbondenheid met de natuur. Gekozen is voor zoveel mogelijk natuurlijke materialen, zoals baksteen en dakpannen in respectievelijk een geel genuanceerde kleur met een aardkleurige plint en terracotta.</p>
+</li>
+    </ol>
+</div>
+<div><img src="../pics/fold.gif" name="Image12" class="folding" id="Image1"><span class="broodtekst-bold">&nbsp;&nbsp;&nbsp;Algemene projectinformatie</span>
+            <ol class="broodtekst" style="list-style-image:url(../plannen/list.gif);display:none">
+    <li class="broodtekst">
+	  <span class="streepjes">architect</span> Arch ID architecten BNA bv - Nijmegen<br>
+  	  <span class="streepjes">projectarchitect</span> ir. M.A. Herweijer<br>
+      <span class="streepjes">opdrachtgever</span> Zusters O.L. Vrouwe van Koningsoord - Berkel-Enschot<br>
+      <span class="streepjes">aannemer</span> n.n.b.<br>
+      <span class="streepjes">bouwsom</span> € 7.200.000<br>
+      <span class="streepjes">aanvraag bouw</span> n.n.b.<br>
+	  <span class="streepjes">website</span> <a href="http://www.arch-id.nl" target="_blank">www.arch-id.nl</a>
+	  </li>	  
+	  </ol>  
+</div></td>
+      </tr>
+      <tr>
+        <td width="15">&nbsp;</td>
+        <td class="broodtekst">&nbsp;</td>
+      </tr>
+      <tr>
+        <td width="15">&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+</table>
+<!-- replace map <map name="Map">
+  <area shape="rect" coords="3,2,50,25" href="cat06.htm" alt="Terug naar index overzicht van deze categorie.">
+  <area shape="rect" coords="52,2,132,25" href="05-sian.htm" alt="Volgend project in deze categorie.">
+</map> replace map end-->
+<script>
+<!--
+function doit(){
+if (!window.print){
+alert("You need NS4.x to use this print button!")
+return
+}
+window.print()
+}
+//-->
+</script>
+<a href="javascript:doit()"><img src="../pics/printer.gif" width="18" height="18" border="0" alt="Print pagina"></a>
+</body>
+</html>

@@ -1,0 +1,31 @@
+body {
+	background-color: FDFAF7;
+}
+a:link {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #980066;
+; text-decoration: none
+}
+.bodytekst {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #002A4F;
+	list-style-image: url(images/bullet.gif);
+
+}
+.koptekst {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bolder;
+	color: #A41971;
+}
+.tussenkop {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bolder;
+	color: #002A4F;
+}
+.titelcontent {  font-size: 9px; color: #a41971; font-family: Arial, Helvetica, sans-serif}
+a:active {  font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #990039; text-decoration: none}
+a:visited {  font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #660000; text-decoration: none}

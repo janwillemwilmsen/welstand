@@ -1,0 +1,226 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Untitled Document</title>
+<link href="../content-01.css" rel="stylesheet" type="text/css">
+<SCRIPT LANGUAGE="JavaScript">
+
+
+<!-- Begin
+NewImg = new Array (
+"01b-pics/simi-01.jpg",
+"01b-pics/simi-02.jpg",
+"01b-pics/simi-03.jpg",
+"01b-pics/simi-04.jpg"
+);
+var ImgNum = 0;
+var ImgLength = NewImg.length - 1;
+
+//Time delay between Slides in milliseconds
+var delay = 2000;
+
+var lock = false;
+var run;
+function chgImg(direction) {
+if (document.images) {
+ImgNum = ImgNum + direction;
+if (ImgNum > ImgLength) {
+ImgNum = 0;
+}
+if (ImgNum < 0) {
+ImgNum = ImgLength;
+}
+document.slideshow.src = NewImg[ImgNum];
+   }
+}
+function auto() {
+if (lock == true) {
+lock = false;
+window.clearInterval(run);
+}
+else if (lock == false) {
+lock = true;
+run = setInterval("chgImg(1)", delay);
+   }
+}
+//  End -->
+</script>
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+//-->
+</script>
+<style>
+<!--
+a:hover{color:#B3DC1F}
+a{text-decoration:none}
+.look{font:bold 16pt Garamond,Arial;}
+.look2{font:bold 12pt Garamond,Arial;}
+.folding{cursor:hand}
+//-->
+</style>
+
+<script language="JavaScript">
+<!--
+
+
+
+//By George Chiang (www.javascriptkit.com) JavaScript site.
+img1=new Image()
+img1.src="../pics/fold.gif"
+img2=new Image()
+img2.src="../pics/open.gif"
+ns6_index=0
+
+function change(e){
+
+if(!document.all&&!document.getElementById)
+return
+
+if (!document.all&&document.getElementById)
+ns6_index=1
+
+var source=document.getElementById&&!document.all? e.target:event.srcElement
+if (source.className=="folding"){
+var source2=document.getElementById&&!document.all? source.parentNode.childNodes:source.parentElement.all
+if (source2[2+ns6_index].style.display=="none"){
+source2[0].src="../pics/open.gif"
+source2[2+ns6_index].style.display=''
+}
+else{
+source2[0].src="../pics/fold.gif"
+source2[2+ns6_index].style.display="none"
+}
+}
+}
+document.onclick=change
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+//-->
+</script>
+</head>
+
+<body style="width:90%">
+<div id="Layer1" style="position:absolute; left:25px; top:75px; width:540px; height:225px; z-index:1">
+  <table width="85%" cellpadding="0" cellspacing="0">
+    <tr>
+      <td><img src="01b-pics/simi-01.jpg" name="slideshow" border="1"></td>
+    </tr>
+    <tr>
+      <td height="25" valign="bottom"><table height="22" cellpadding="0" cellspacing="0">
+        <tr>
+          <td width="200">&nbsp;</td>
+          <td><table height="23" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="left"><a href="javascript:chgImg(-1)"><img src="../pics/pic-vori.jpg" width="70" height="22" border="0"></a></td>
+              <td align="center"><a href="javascript:auto()"><img src="../pics/pic-aust.jpg" width="70" height="22" border="0"></a></td>
+              <td align="center"><a href="javascript:chgImg(1)"><img src="../pics/pic-volg.jpg" width="70" height="22" border="0"></a></td>
+            </tr>
+          </table></td>
+        </tr>
+      </table></td>
+    </tr>
+  </table>
+</div>
+<table width="99%" height="100%" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="185px" height="25">&nbsp;</td>
+    <td height="0" bgcolor="" style="background-image: url(../pics/back-white.gif);">
+      <table width="200" cellspacing="0" cellpadding="0">
+        <tr>
+          <td><!-- <img src="../pics/plannav.gif" alt="Terug naar index overzicht van deze categorie." width="136" height="24" border="0" usemap="#Map"> -->          </td>
+          <td><!-- <a href="javascript:print();"><img src="../pics/print.gif" width="16" height="15" border="0"></a> --></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr>
+    <td width="185" valign="top"><table width="180" cellpadding="0" cellspacing="0" class="broodtekst">
+        <tr>
+          <td height="315">&nbsp;</td>
+        </tr>
+        <tr>
+          <td><p class="titel-groen">Sint-Michielsgestel</p>
+		    <p class="broodtekst-bold">Plan Rundael, appartementen met kantoorruimte aan het Mercuriusplein in Berlicum</p>
+		    <p>		      Dit plan wordt in de kom van het kerkdorp Berlicum gerealiseerd, aan de zuidwestkant van het Mercuriusplein.            
+		    <p> In stedenbouwkundige zin valt dit plan in positieve zin op door de interessante wijze waarop dit terrein met gebruik van de diepe achtertuinen effici&euml;nt wordt ingevuld en de pleinwand wordt vormgegeven. Een goed voorbeeld van stedenbouwkundige verdichting in een dorpse sfeer. <br>
+		      In architectonische zin valt het plan op door z&rsquo;n gelede vormopzet, die goed aansluit op de bebouwing aan dit oude lint.            
+		    <p> Het plan vormt als het ware een intermediair tussen de bestaande lintbebouwing en de grootschalige bebouwing aan het plein. De gelede opzet zorgt er goed voor dat het plan niet overdreven massaal overkomt. De architectonische uitwerking oogt evenwichtig en kenmerkt zich door fraai gevormde contourlijnen. Met zorgvuldigheid is ook ontworpen aan de woningen op het achterterrein, die door hun specifieke vormgeving en materiaalgebruik een eenheid vormen met de bebouwing aan het plein.</td>
+        </tr>
+      </table></td>
+    <td valign="top" background="../pics/back-white.gif"><table width="400" cellspacing="0" cellpadding="0">
+      <tr>
+        <td height="19">&nbsp;</td>
+        <td height="30" valign="middle" class="broodtekst">Projectmatige woningbouw in bestaande stedenbouwkundige context</td>
+      </tr>
+      <tr>
+        <td width="15" height="160">&nbsp;</td>
+        <td height="285" class="broodtekst">&nbsp;</td>
+      </tr>
+      <tr>
+        <td width="15">&nbsp;</td>
+        <td class="broodtekst"><div><img src="../pics/fold.gif" name="Image12" class="folding" id="Image1"><span class="broodtekst-bold">&nbsp;&nbsp;&nbsp;Plantoelichting architect</span>
+            <ol class="broodtekst" style="list-style-image:url(../plannen/list.gif);display:none">
+    <li class="broodtekst"><p>Voor de locatie aan de Hoogstraat te Berlicum is door Croonen Adviseurs in overleg met gemeente en Arceau Architecten een stedenbouwkundige visie opgesteld, welke de basis vormde voor het ontwerp van Arceau Architecten.</p>
+
+<p>Het ontworpen bouwblok is op meerdere niveaus verankerd in zijn omgeving:<br>
+- het vormt een intermediair tussen het Mercuriusplein aan de voorzijde en de woonwijk Beekveld aan de achterzijde;<br>
+- de voorzijde sluit met zijn grotere hoogte aan op de bebouwing rondom het centrumplein, terwijl de achterzijde met zijn lagere patiowoningen past bij de schaal van de woningbouw in de achterliggende wijk Beekveld;<br>
+- de pleinwand aan de voorzijde maakt onderdeel uit van de karakteristieke lintbebouwing langs de Hoogstraat en is vanwege de kleinschaligheid van deze bebouwing ogenschijnlijk opgedeeld in drie aparte huizen.<br> 
+In de nadere vormgeving en detaillering van het plan vormden naast de genoemde inpassing in de omgeving, privacy, een maximum aan licht, ruimtelijke beleving en uitzicht de basis voor de positionering van ruimtes, terrassen, balkons en gevelopeningen.</p>
+
+<p>Om de patiowoningen en het appartementencomplex samen een eenheid te laten vormen zijn beiden uitgevoerd in roodbruine baksteen en leikleurige dakpannen en is ook de detaillering op elkaar afgestemd.</p>
+</li>
+    </ol>
+</div>
+<div><img src="../pics/fold.gif" name="Image12" class="folding" id="Image1"><span class="broodtekst-bold">&nbsp;&nbsp;&nbsp;Algemene projectinformatie</span>
+            <ol class="broodtekst" style="list-style-image:url(../plannen/list.gif);display:none">
+    <li class="broodtekst">
+	  <span class="streepjes">architect</span> Arceau architecten bv - Uden<br>
+      <span class="streepjes">projectarchitect</span> Anthony Litjes<br>
+      <span class="streepjes">opdrachtgever</span> Rondael bv - Berlicum<br>
+      <span class="streepjes">aannemer</span> Aannemingsbedrijf Nieuwenhuizen-Daandels - Uden<br>
+      <span class="streepjes">bouwsom</span> € 2.500.000<br>
+      <span class="streepjes">oplevering</span> najaar 2006<br>
+	  <span class="streepjes">website</span> <a href="http://www.arceau.nl" target="_blank">www.arceau.nl</a></li>
+	  </ol>
+	  </div></td>
+      </tr>
+      <tr>
+        <td width="15">&nbsp;</td>
+        <td class="broodtekst">&nbsp;</td>
+      </tr>
+      <tr>
+        <td width="15">&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+<!-- replace map <map name="Map">
+  <area shape="rect" coords="3,2,50,25" href="cat01b.htm" alt="Terug naar index overzicht van deze categorie.">
+  <area shape="rect" coords="52,2,132,25" href="12-vegh.htm" alt="Volgend project in deze categorie.">
+</map> replace map end-->
+<script>
+<!--
+function doit(){
+if (!window.print){
+alert("You need NS4.x to use this print button!")
+return
+}
+window.print()
+}
+//-->
+</script>
+<a href="javascript:doit()"><img src="../pics/printer.gif" width="18" height="18" border="0" alt="Print pagina"></a>
+</body>
+</html>

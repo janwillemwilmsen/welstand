@@ -1,0 +1,89 @@
+body {
+	background-color:#8bbbe3 ;
+    scrollbar-face-color: #778787;
+    scrollbar-track-color: #c8c8c8;
+    scrollbar-arrow-color: #c8c8c8;
+    scrollbar-3dlight-color: #778787;
+    scrollbar-darkshadow-color: #778787;
+    scrollbar-highlight-color: #778787;
+    scrollbar-shadow-color: #778787;
+	margin-left: 25px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	}
+.broodtekst {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #011A33;
+	list-style-image: url(pics/list.gif);
+}
+
+.streepjes {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: 900;
+	color: #B2DD1C;
+}
+a:link {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #011A33;
+	font-weight: normal;
+	text-decoration: none;
+}
+a:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #011A33;
+	text-decoration: none;
+	font-weight: normal;
+}
+a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #B3DC1F;
+	text-decoration: none;
+	font-weight: normal;
+}
+a:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #B3DC1F;
+	text-decoration: none;
+	font-weight: normal;
+}
+.titel-groen {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bolder;
+	color: #B3DC1F;
+}
+.navigatie {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #011A33;
+}
+.kop-wit {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: 900;
+	color: #FFFFFF;
+}
+.broodtekst-bold {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #011A33;
+	font-weight: bold;
+}
+.broodtekst-witbold {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.foto-tekst {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #B3DC1F;
+}

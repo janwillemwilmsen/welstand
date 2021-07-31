@@ -1,0 +1,54 @@
+body {
+	background-color:#8bbbe3 ;
+    scrollbar-base-color: default;
+    scrollbar-face-color: #778787;
+    scrollbar-track-color: #c8c8c8;
+    scrollbar-arrow-color: #c8c8c8;
+    scrollbar-3dlight-color: #778787;
+    scrollbar-darkshadow-color: #778787;
+    scrollbar-highlight-color: #778787;
+    scrollbar-shadow-color: #778787;
+	
+}
+.bodytekst {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #002A4F;
+	list-style-image: url(images/bullet.gif);
+
+}
+.koptekst {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bolder;
+	color: #E8E8E8;
+}
+.tussenkop {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bolder;
+	color: #002A4F;
+}
+.titelcontent {
+	font-size: 14px;
+	color: #002A4F;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight : bold;
+}
+
+}
+a:link {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: ;
+; text-decoration: underline
+}
+font.titel {color:white;font-family:arial;font-size:20px;}
+H1.bureaus  {color:white;font-family:arial;font-size:20px;}
+
+A:visited {  font-family:Arial, Helvetica, sans-serif;font-size:12px; text-decoration: underline}
+A.rapport {color:MidnightBlue; text-decoration:none;font-size:11px;}
+A.rapport:hover {color:#4060c8; text-decoration:none;font-size:11px;}
+A.rapport:link {font-family: arial; color:#e8e8e8; text-decoration:none; font-size:11px;font-weight: bold; }
+A.rapport:visited {font-family: arial; color:#e8e8e8; text-decoration:none; font-size:11px;font-weight: bold; }
+A.rapport:hover {font-family: arial;  text-decoration:none; color:white; font-size:11px;font-weight: bold; }
